@@ -19,3 +19,7 @@ var twoSum = function(nums, target) {
 
     return ArrayReturn;
 };
+
+/* Explicación:
+La función busca, dentro del arreglo nums, dos índices i y j (con j > i) tales que nums[i] + nums[j]  === target. Cuando encuentra una pareja que cumple la condición, añade i y j al array ArrayReturn. Finalmente retorna ArrayReturn
+*/
